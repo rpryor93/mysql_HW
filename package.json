@@ -1,0 +1,25 @@
+{
+  "name": "mysql_hw",
+  "version": "1.0.0",
+  "description": "a mini amazon protype designed using node.js",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpryor93/mysql_HW.git"
+  },
+  "author": "Ron Pryor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpryor93/mysql_HW/issues"
+  },
+  "homepage": "https://github.com/rpryor93/mysql_HW#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^1.1.3",
+    "mysql": "^2.11.1",
+    "prompt": "^1.0.0"
+  }
+}
