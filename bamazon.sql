@@ -76,3 +76,9 @@ VALUES(
   "Accessories",
   120.29,
   660);
+SELECT `Products`.`ItemID`,
+    `Products`.`ProductName`,
+    `Products`.`DepartmentName`,
+    `Products`.`Price`,
+    `Products`.`StockQuantity`
+FROM `Bamazon`.`Products`;
